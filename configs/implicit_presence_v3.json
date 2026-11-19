@@ -1,0 +1,23 @@
+{
+  "experiment": "hamos_implicit_category_sentiment_presence_v3_text",
+  "text_checkpoint": "FacebookAI/xlm-roberta-base",
+  "text_revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "max_length": 256,
+  "dropout": 0.1,
+  "seed": 1729,
+  "optimizer": "AdamW",
+  "learning_rate": 0.00002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "micro_batch_size": 2,
+  "gradient_accumulation_steps": 16,
+  "max_epochs": 20,
+  "early_stopping_patience": 4,
+  "threshold_grid": [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0],
+  "class_weighted": false,
+  "class_weight_cap": 20.0,
+  "mixed_precision": "fp16",
+  "gradient_checkpointing": true,
+  "num_workers": 0,
+  "local_files_only": true
+}

@@ -1,0 +1,242 @@
+{
+  "aspect_categories": {
+    "AMENITY": 0,
+    "BRANDING": 1,
+    "EXPERIENCE": 2,
+    "FACILITY": 3,
+    "LOYALTY": 4,
+    "SERVICE": 5
+  },
+  "taxonomy_codes": {
+    "AM_ENT": 0,
+    "AM_FOOD": 1,
+    "AM_POOL": 2,
+    "AM_ROOM_UTIL": 3,
+    "AM_TRANSPORT": 4,
+    "AM_UTILITY": 5,
+    "AM_WELLNESS": 6,
+    "AM_WIFI": 7,
+    "BRA_CONSISTENCY": 8,
+    "BRA_LUXURY": 9,
+    "BRA_REPUTE": 10,
+    "EXP_EMOTION": 11,
+    "EXP_OVERALL": 12,
+    "EXP_SAFETY": 13,
+    "EXP_VALUE": 14,
+    "FAC_BATH": 15,
+    "FAC_BUILDING": 16,
+    "FAC_CLIMATE": 17,
+    "FAC_ENV": 18,
+    "FAC_INTERIOR": 19,
+    "FAC_ROOM": 20,
+    "FAC_SECURITY": 21,
+    "FAC_VIEW_LOCATION": 22,
+    "LOY_PREFERENCE": 23,
+    "LOY_RECOMMEND": 24,
+    "LOY_RETURN": 25,
+    "SER_ATTITUDE": 26,
+    "SER_COMM": 27,
+    "SER_OPERATION": 28,
+    "SER_PROFESSIONALISM": 29,
+    "SER_SUPPORT": 30
+  },
+  "taxonomy_code_to_category": {
+    "FAC_ROOM": "FACILITY",
+    "FAC_BATH": "FACILITY",
+    "FAC_INTERIOR": "FACILITY",
+    "FAC_BUILDING": "FACILITY",
+    "FAC_ENV": "FACILITY",
+    "FAC_CLIMATE": "FACILITY",
+    "FAC_SECURITY": "FACILITY",
+    "FAC_VIEW_LOCATION": "FACILITY",
+    "AM_WIFI": "AMENITY",
+    "AM_FOOD": "AMENITY",
+    "AM_POOL": "AMENITY",
+    "AM_WELLNESS": "AMENITY",
+    "AM_ENT": "AMENITY",
+    "AM_TRANSPORT": "AMENITY",
+    "AM_ROOM_UTIL": "AMENITY",
+    "AM_UTILITY": "AMENITY",
+    "SER_ATTITUDE": "SERVICE",
+    "SER_PROFESSIONALISM": "SERVICE",
+    "SER_OPERATION": "SERVICE",
+    "SER_SUPPORT": "SERVICE",
+    "SER_COMM": "SERVICE",
+    "EXP_OVERALL": "EXPERIENCE",
+    "EXP_EMOTION": "EXPERIENCE",
+    "EXP_VALUE": "EXPERIENCE",
+    "EXP_SAFETY": "EXPERIENCE",
+    "BRA_REPUTE": "BRANDING",
+    "BRA_LUXURY": "BRANDING",
+    "BRA_CONSISTENCY": "BRANDING",
+    "LOY_RETURN": "LOYALTY",
+    "LOY_RECOMMEND": "LOYALTY",
+    "LOY_PREFERENCE": "LOYALTY"
+  },
+  "sentiments": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "implicitness": {
+    "explicit": 0,
+    "implicit": 1
+  },
+  "taxonomy": [
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_ROOM",
+      "subcategory": "Guest Room Condition, Comfort & Cleanliness"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_BATH",
+      "subcategory": "Bathroom & Sanitary Area"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_INTERIOR",
+      "subcategory": "Interior Design, Décor & Lighting"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_BUILDING",
+      "subcategory": "Building & Structural Infrastructure"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_ENV",
+      "subcategory": "Noise, Odor & Environmental Comfort"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_CLIMATE",
+      "subcategory": "Air Conditioning, Temperature & Ventilation"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_SECURITY",
+      "subcategory": "Physical Security Infrastructure"
+    },
+    {
+      "aspect_category": "FACILITY",
+      "taxonomy_code": "FAC_VIEW_LOCATION",
+      "subcategory": "View, Surroundings, Accessibility & Location"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_WIFI",
+      "subcategory": "Wi-Fi & Connectivity"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_FOOD",
+      "subcategory": "Food & Beverage Quality"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_POOL",
+      "subcategory": "Pool & Water Facilities"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_WELLNESS",
+      "subcategory": "Gym, Spa & Wellness Facilities"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_ENT",
+      "subcategory": "Entertainment & Recreation"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_TRANSPORT",
+      "subcategory": "Transportation, Transfer & Parking"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_ROOM_UTIL",
+      "subcategory": "In-room Utilities, Appliances & Supplies"
+    },
+    {
+      "aspect_category": "AMENITY",
+      "taxonomy_code": "AM_UTILITY",
+      "subcategory": "Laundry & Utility Services"
+    },
+    {
+      "aspect_category": "SERVICE",
+      "taxonomy_code": "SER_ATTITUDE",
+      "subcategory": "Staff Attitude & Hospitality"
+    },
+    {
+      "aspect_category": "SERVICE",
+      "taxonomy_code": "SER_PROFESSIONALISM",
+      "subcategory": "Staff Competence & Professionalism"
+    },
+    {
+      "aspect_category": "SERVICE",
+      "taxonomy_code": "SER_OPERATION",
+      "subcategory": "Operational & Service-delivery Efficiency"
+    },
+    {
+      "aspect_category": "SERVICE",
+      "taxonomy_code": "SER_SUPPORT",
+      "subcategory": "Support, Responsiveness & Problem Resolution"
+    },
+    {
+      "aspect_category": "SERVICE",
+      "taxonomy_code": "SER_COMM",
+      "subcategory": "Communication & Language Ability"
+    },
+    {
+      "aspect_category": "EXPERIENCE",
+      "taxonomy_code": "EXP_OVERALL",
+      "subcategory": "Overall Stay Experience & Satisfaction"
+    },
+    {
+      "aspect_category": "EXPERIENCE",
+      "taxonomy_code": "EXP_EMOTION",
+      "subcategory": "Emotional & Atmospheric Experience"
+    },
+    {
+      "aspect_category": "EXPERIENCE",
+      "taxonomy_code": "EXP_VALUE",
+      "subcategory": "Value for Money & Price Fairness"
+    },
+    {
+      "aspect_category": "EXPERIENCE",
+      "taxonomy_code": "EXP_SAFETY",
+      "subcategory": "Subjective Safety & Personal Comfort"
+    },
+    {
+      "aspect_category": "BRANDING",
+      "taxonomy_code": "BRA_REPUTE",
+      "subcategory": "Brand Reputation, Trust & Reliability"
+    },
+    {
+      "aspect_category": "BRANDING",
+      "taxonomy_code": "BRA_LUXURY",
+      "subcategory": "Luxury, Prestige & Premium Perception"
+    },
+    {
+      "aspect_category": "BRANDING",
+      "taxonomy_code": "BRA_CONSISTENCY",
+      "subcategory": "Brand Promise, Star Standard & Information Consistency"
+    },
+    {
+      "aspect_category": "LOYALTY",
+      "taxonomy_code": "LOY_RETURN",
+      "subcategory": "Revisit Intention"
+    },
+    {
+      "aspect_category": "LOYALTY",
+      "taxonomy_code": "LOY_RECOMMEND",
+      "subcategory": "Recommendation & Positive Word-of-Mouth Intention"
+    },
+    {
+      "aspect_category": "LOYALTY",
+      "taxonomy_code": "LOY_PREFERENCE",
+      "subcategory": "Customer Preference, Attachment & First Choice"
+    }
+  ]
+}

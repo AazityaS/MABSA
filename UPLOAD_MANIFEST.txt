@@ -1,0 +1,118 @@
+HAMOS GitHub Upload Payload Manifest
+Source of truth: HAMOS/reports/github_upload_audit.md, section "Final upload allowlist (80 files)"
+
+Approved payload files (relative path | bytes | SHA-256):
+.gitignore | 987 | 476128d4028d52a1c6e3299bb11424c7b467e98c2aab058dc3fd7167f1ec9541
+README.md | 5392 | 68b1b4050b9dbe22a26333634a34381604ae5d3c567b1ebef8f724c44ef5c452
+requirements.txt | 141 | 4390d7ef449a93be10524a7b1330ada0ae8f9704ed648a8520c7300f812cd435
+STRUCTURED_MODELING.md | 5491 | da2be3a4e06b1c617789dcd9cfc8759c578227295d410d07d9191c382fc2bd06
+download_hamos_images.py | 5033 | 43f0449c5e72ced2eae90ae5cca9358d7abd223766d9515cca64ae5153c7fe74
+validate_hamos_images.py | 11147 | bdc1944b6feea6a5da076347d4dc96f391e79858c19a407482ba823530d2466a
+configs/implicit_hybrid_v4.json | 795 | 56babceadaa541c8b6a6fe5184a2f9dc8033d9ff175a890dbd70f2f3c36b73a6
+configs/implicit_presence_v3_frozen.json | 728 | ebf63a3b6d81a0ccaa34d04968fe89f2a10897065a57e5e07dcc94e9140bd93b
+configs/implicit_presence_v3.json | 759 | b5449c804901d3ed7467da7f1df724d4c2f87e96907c9db437bb7b7818d0fa7c
+configs/structured_baseline.json | 841 | c6167b9a5a1dbc4389d80f23ff417a0d41302b04b943c6d38ee0ded8bf8b693d
+configs/structured_challenger_v1.json | 853 | 5c115d7daf7dd4a02a23ebf8bf64699a1dd95dc7e9de7cbaa4a2fa2d1290d669
+src/__init__.py | 44 | 997110f779f17b4fe8fa65f84ad08d11fba4d9a49622e09e56538112a8ec22cc
+src/config.py | 872 | af57f14f9ec5e2ff8587e3cf225093726da4bf61a1c67da1a045d5309ecdd708
+src/data_loader.py | 6749 | 71fc78dd722961f080abef1e5ff74ea12ed5c3038bcc153c99c078dfc293f060
+src/image_utils.py | 1555 | 6781eb9450f8bc4c26f3dadb52e46f21c6428e5421c99dcd56296f4b021f0672
+src/label_mapping.py | 3310 | 83c0d9e2cdee00cc2b729c006219dfa49e2c64b4b5550e6034c352422983913e
+src/preprocessing.py | 657 | db7820836fcdf6fe36a110486c4141315941624e604efac1222c018c11e111ba
+src/quad_dataset_cli.py | 1080 | baf310514f8d017eb6f946b9f7734039c37e6e0d2b5d9eea3881bf810d6cb6d2
+src/quad_dataset.py | 12149 | 34cfc7a6f4aa8d10057e19e70dfabc36d5774f60f5e20c0e8f625e55faf8baef
+src/span_diagnostics_cli.py | 749 | d09adc1479465ee3207dd38df1a2ba9e81f0f72f0296ed6e7cc49558f9b1f0ab
+src/span_diagnostics.py | 3870 | 9bbdada010b557922e0b1385412fc8815d20f3e873e05ff7133e9fdf814f2ab4
+src/structured_dataset.py | 9115 | 17247978e4d49bce1a5d59d98e690a8239e7cf7380c04a06e99b1594eeb3d1cb
+src/structured_evaluate.py | 6429 | d9cb415fcd83c493a2f56834a7b0f395142e34cec265b857609dc3a575890eec
+src/structured_features.py | 7229 | 46f5250016157fbcc0a05118889571264f67fd0e82f1c9e8f2cdb91eba186e41
+src/structured_gpu_smoke.py | 17401 | 717a57758f3f46ba2cc0d02d5ed1c06152c312716fa1567dc31e5a6f30aad65b
+src/structured_loss.py | 6018 | 9360adc5861d5ea67269ced088775ced4c091fb0d4eb804257afad51ea85da0e
+src/structured_metrics.py | 19695 | 2dba70b6f7e4eb30065cfc1160b6ccc8e4e11d6f17d87c91c0f235c8f2093ac3
+src/structured_model.py | 3477 | b198f1c7b911f0a9e75aba50d1cfeb1dd695e5d9f5d0718e3074ab3a797b0a8c
+src/structured_smoke.py | 2966 | 87a8039b087ac8f66ca748ed32444bedc5ad0da7268b0b0d69aded4030b556f5
+src/structured_train.py | 20191 | 49141cd0264b72f1dc4bffaa1b8b4bc5d6d5e0fe9bd3d348f91fa2963b411b96
+src/v3_frozen_cache.py | 8072 | 82757b6e95e88652fc2c184a0dadb57256ef7cda01d3fbc99fed0dfaada2a77c
+src/v3_frozen_dataset.py | 2372 | f6e5a735f7583b659406e34907e957c610e3b3f2b946d524cccacd40e3c49a40
+src/v3_frozen_model.py | 559 | 5c34ce94231f626fdd63e7dd16046d932d9734a6c3e272a45fb7b4bcc50ac7ca
+src/v3_frozen_train.py | 9948 | 673a84cf48e9b3440d3bca14ff76fe4c6b823b0b568aa2d2fdb935b9731443e5
+src/v3_presence_dataset.py | 6688 | 446e39d69fb1e36f7027966e4aeab135a8ddb216e38de5678753cd82ebe8efb8
+src/v3_presence_evaluate.py | 4002 | 11a38b52bc5fc25056eb3de843ad80465545511cfecc93c119cb4c8fa26a7d84
+src/v3_presence_metrics.py | 4118 | e2ab66fcef31e1cc5cf967581b985c8fb41a556c7a7a768b3958f0315d426e64
+src/v3_presence_model.py | 1517 | 993a91bb05f9b88faea006b03d2a3740dfafe3e35fae360b496882d17d07e9ee
+src/v3_presence_smoke.py | 6735 | 1604848fdb4dbc6592204085d60730bd2a34406b83e10e3fd4f1f0c7a45995e3
+src/v3_presence_train.py | 13090 | 8ac2fad4ba2a29e8b2f7f10579b02c4384a5f5894d19ceea7d8340a56fdd8947
+src/v4_hybrid_dataset.py | 6165 | dfd8000423622df901557d31c22b31d448331197bc5254439d706ba0c7b184df
+src/v4_hybrid_evaluate.py | 4584 | 8c2f16febaa54b167c6f55e4b497bd89fe535351216e239e439aacb0dba95b61
+src/v4_hybrid_loss.py | 1519 | b6eb72937c59d92301161bdd2bef205190d85de5376d1a91aeffc21aa6d9088e
+src/v4_hybrid_metrics.py | 8209 | 12264ef73eaa34e3b747df76fcb39c7ee1468a543af065586f7862e41154d051
+src/v4_hybrid_model.py | 3183 | 5887656fa3ddb93fcaa3ba764c8bf6c41f63c2530509421ebe9d0f7fd58bc7ba
+src/v4_hybrid_smoke.py | 7363 | 8c14e7a552354f0f97d45e7b3959a765eed2f3d48f33f544a5dc39425af3178e
+src/v4_hybrid_train.py | 31326 | f7f9eca304c302659ae692bed712de5af0e35ffa168a0bdb52706f86e1310c73
+src/validation_cli.py | 1244 | 26cf9cbdc0587ee7d4c84f89437053584d5139ca914be43789e335711c7d4f22
+src/validation.py | 14610 | 1b9e0fc0c35f9ee9f721252343d1662a8a9dee36bd50cf268981102c4a82eeba
+tests/test_cardinality_loss.py | 2858 | d301edc16ddbf6a415c114108566e3c073d323f4c6b1a8c8fd762bef25efc4a4
+tests/test_label_mapping.py | 1102 | 28e9c579de5bd361bbe600ede163c009488bfb2ef605157c665095d045f4d85c
+tests/test_structured_cache_path.py | 1462 | f3738c667746ebee9266785bdd4369355701f4a81a357e54cd0638ad36a181af
+tests/test_structured_dataset.py | 5635 | 23b04b73431a96824a446ee9239e324495db586264eef16dcd2456b5c421c54a
+tests/test_structured_protocol.py | 11809 | 9770f54fb6b71efba59e559f45f8997a5f373a49e1e805a60f5a3acd4479294f
+tests/test_v3_frozen.py | 4213 | 48875c812353795ba036a049965ba15d1e234dcd31e0908d92db89c0e24203f1
+tests/test_v3_presence.py | 8294 | 0ddce33f79f2c4a17f250c7bd9aed550d441b9ce662f5c32af6bb718c11d4c60
+tests/test_v4_hybrid.py | 8919 | 3fe321b105b05376d7d11bed65438a24761b53503a36436187592defdb0a1f1b
+reports/alternative_approaches_feasibility.md | 23753 | 4717ab1e13ca167cbaf4b592cb447947c0af0acb9f9697917da2f10e51765260
+reports/challenger_v1_results.md | 15114 | d3d249ef109e5f9cf6912ef9bfa7054deef529ff9847f572fa6b62218605e2c9
+reports/dataset_inspection_report.md | 5115 | cb69e61b6cd246e23f236487e1b4a3139b4257260fd6a06720227e03121afb52
+reports/evaluation_and_loss_protocol.md | 22142 | 0ebeb39f41f4479e4b85922781c7d56b3a0bc6cfe8390e75b622e54af2d60a6d
+reports/evaluation_reporting_gap_fixes.md | 7149 | 85b1bbbd5b5b54b8687ee8ee867f70af6471cd162540954c3f9e94fa4e783c5e
+reports/feature_extraction_validation.md | 4535 | fbb047df7cc7f6823c51d208e9d21caf6389f1cd9231880e9139c466f57f7ee3
+reports/final_test_evaluation.md | 10421 | a19355effd29af9f7ca103b6e093189901cde4773bf6e2e4293de97e5e88e89f
+reports/objectness_cardinality_audit.md | 17819 | 002059fd774bb004ab02b3ca1da5cf58026bb09d116107bc52dca3707b140b9c
+reports/per_quad_modelling_design.md | 3624 | ece2894413546f777e9c50e6e659fe113ba7533d2d2e185bd0dcb13aa02a2840
+reports/pretraining_readiness_audit.md | 14245 | e394524cbe460412039fd0d062df84138ff798303d13fa01e058bacbb734a086
+reports/primary_training_results.md | 5545 | f0b5dca8f7c2504f36dd00e8b48153b15325c0c593a7d99755efda626c02828e
+reports/structured_modelling_specification.md | 27374 | 8aebf93a520f1a102c893f43a59241740eb5af0413901dbfb640a66cac75195a
+reports/tas_acos_hamos_adaptation_audit.md | 21913 | b1e339fc6debbf1fdea910a68f0ea9b7e9ce7b59ebb972e1e60f246ca0b4ad76
+reports/v3_architecture_feasibility.md | 19280 | 241fcd5f890d1e7262014004bb4accf7f5608c01d36e143e0df76b1a46f3520f
+reports/v3_frozen_results.md | 8892 | a807e5f9218fee8400f1a08f71c7d175601594df80d2d73c16e543d76c9d7e3d
+reports/v3_frozen_threshold_diagnostic.md | 13858 | dec5755c850928a901a8540895325ce60badc70be62d0b272ef4fc4982219d26
+reports/v3_implementation_specification.md | 7697 | 5231f6326adead92eacfbafe462b2f4c89867008b1c7b547c56b634c5879e3bf
+reports/v3_label_collision_audit.md | 7557 | f3e9d275e01dcdca788ba29f4d4018b4c3f305b86160cc6bcd2ddb3f7c6cf360
+reports/v3_training_readiness.md | 8545 | e0c6aeef6a45af02182e0886cc18e5cf712d2ed52b1fea5fcebbb484495096c7
+reports/v4_epoch1_diagnostic.md | 11194 | 600aebf997ede089a26eda80b1f79cabb57caffce400f4b573b4cdc0939218aa
+reports/v4_hybrid_implementation_and_readiness.md | 10299 | 9ffeda92b0e96765753ad88c0c9f40dfe7553f41d3bd07e24b80b263b5133412
+reports/v4_training_progress.md | 6141 | 475c614f89dc71483e860fb699964e0ac18aeb8dbc7d94f974d3cf5a839ca19c
+reports/label_mappings.json | 6782 | 328a449faa65394c719f962673856f4936da9788b9e7ade4478c79dcd6bff4f4
+
+Payload file count: 80
+Payload total bytes: 614313
+UPLOAD_MANIFEST.txt is an additional verification file and is not counted in the 80-file payload.
+
+Intentionally excluded paths/files:
+- configs/structured_challenger_v2.json
+- reports/quad_dataset_summary.json
+- reports/validation_summary.json
+- reports/challenger_v2_results.md
+- reports/dataset_suitability_audit.md
+- reports/empty_explicit_span_diagnostics.md
+- reports/empty_explicit_span_diagnostics.csv
+- reports/empty_explicit_span_diagnostics.json
+- reports/error_analysis_and_architecture_review.md
+- reports/gpu_readiness_and_benchmark.md
+- reports/image_only_feasibility_audit.md
+- reports/model_input_ambiguity_audit.md
+- reports/github_upload_audit.md
+- notebooks/01_dataset_preparation.ipynb
+- PJ_05.pdf
+- annotations/
+- metadata/
+- splits/
+- taxonomy/
+- images/
+- cache/
+- runs/
+- .venv-hamos-cuda/
+- temp/
+- tmp/
+- model checkpoints and pretrained weights
+- generated outputs and logs
+- temporary files and Python/notebook caches
